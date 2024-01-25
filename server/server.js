@@ -4,6 +4,7 @@ const cors = require("cors")
 const bodyParser = require("body-parser")
 const lyricsFinder = require("lyrics-finder")
 const SpotifyWebApi = require("spotify-web-api-node")
+REDIRECT_URI='https://spotify-album-cover-finder-backend.onrender.com'
 const port = process.env.PORT || 3001
 
 const app = express()
